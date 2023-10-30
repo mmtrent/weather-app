@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+}
+
+#header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+#forecastContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.forecastCard {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    border: 1px solid black;
+    height: 120px;
+    width: 120px;
+}
+
+.forecastCardIcon {
+    border: 1px solid green;
+    height: 80px;
+    width: 80px;
+}
+
+.forecastCardTitle {
+    border: 1px solid blue;
+}
