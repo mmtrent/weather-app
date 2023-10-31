@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
-    <title>Weather</title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
 </head>
 <body>
     <div id="header">
@@ -23,6 +22,12 @@
         </div>
     </div>
     <div id="body">
+        <div id="currentConditions">
+            <div class="currentConditionsCard">
+                <div id="currentTemp">Temp</div>
+                <div id="currentWeather">Weather</div>
+            </div>
+        </div>
         <div id="forecastContainer">
             <div class="forecastCard">
                 <div class="forecastCardTitle">Today</div>
@@ -41,5 +46,6 @@
             </div>
         </div>
     </div>
+    
 </body>
 </html>

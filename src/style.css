@@ -38,3 +38,23 @@ body {
 .forecastCardTitle {
     border: 1px solid blue;
 }
+
+#currentConditions {
+    padding: 10px;
+}
+
+.currentConditionsCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.currentConditionsCard > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid pink;
+    height: 120px;
+    width: 120px;
+}
