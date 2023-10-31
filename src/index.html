@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= htmlWebpackPlugin.options.title %></title>
-
 </head>
 <body>
     <div id="header">
@@ -23,9 +22,11 @@
     </div>
     <div id="body">
         <div id="currentConditions">
-            <div class="currentConditionsCard">
-                <div id="currentTemp">Temp</div>
-                <div id="currentWeather">Weather</div>
+            <div class="currentConditionsCards">
+                <div id ="currentTempCard "class="currentCard">Temp (F)
+                    <div id="currentTemp">*</div>
+                </div>
+                <div class="currentCard" id="currentWeather">Weather</div>
             </div>
         </div>
         <div id="forecastContainer">

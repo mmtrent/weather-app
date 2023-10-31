@@ -43,18 +43,22 @@ body {
     padding: 10px;
 }
 
-.currentConditionsCard {
+.currentConditionsCards {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-.currentConditionsCard > div {
+.currentCard {
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid pink;
     height: 120px;
     width: 120px;
+}
+
+#currentTemp {
+    font-size: 55px;
 }

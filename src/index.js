@@ -1,8 +1,4 @@
-import getWeather from "./getWeather";
+require('./style.css')
+import setValues from "./UI";
 
-console.log('Hi');
-
-(async () => {
-    const weather = await getWeather();
-    console.log(weather);
-})();
+setValues();
