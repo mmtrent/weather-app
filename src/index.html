@@ -15,35 +15,39 @@
                 <label for="locationSearch">
                     Location:
                 </label>
-                <input name="locationSearch" id="locationSearch">
-                <button>Search</button>
+                <input name="locationSearch" id="locationSearch" value="South Lake Tahoe">
+                <button id="locationSearchButton">Search</button>
             </form>
         </div>
     </div>
     <div id="body">
         <div id="currentConditions">
             <div class="currentConditionsCards">
-                <div id ="currentTempCard "class="currentCard">Temp (F)
+                <div id="currentLocation"></div>
+                <div id ="currentTempCard "class="currentCard">
                     <div id="currentTemp">*</div>
                 </div>
-                <div class="currentCard" id="currentWeather">Weather</div>
+                <div class="currentCard" id="currentWeather">
+                    <div id="currentCondition"></div>
+                    <div id="currentWeatherIcon"></div>
+                </div>
             </div>
         </div>
         <div id="forecastContainer">
             <div class="forecastCard">
                 <div class="forecastCardTitle">Today</div>
-                <div class="forecastCardIcon">img</div>
-                <div class="forecastCardForecast">Forecast</div>
+                <div class="forecastCardIcon" id="todayForecastImg"></div>
+                <div class="forecastCardForecast" id="todayForecast">Forecast</div>
             </div>
             <div class="forecastCard">
                 <div class="forecastCardTitle">Tomorrow</div>
-                <div class="forecastCardIcon">img</div>
-                <div class="forecastCardForecast">Forecast</div>
+                <div class="forecastCardIcon" id="tomorrowForecastImg"></div>
+                <div class="forecastCardForecast" id="tomorrowForecast">Forecast</div>
             </div>
             <div class="forecastCard">
                 <div class="forecastCardTitle">Next Day</div>
-                <div class="forecastCardIcon">img</div>
-                <div class="forecastCardForecast">Forecast</div>
+                <div class="forecastCardIcon" id="nextForecastImg"></div>
+                <div class="forecastCardForecast" id="nextForecast">Forecast</div>
             </div>
         </div>
     </div>

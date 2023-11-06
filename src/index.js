@@ -1,4 +1,7 @@
 require('./style.css')
 import setValues from "./UI";
 
-setValues();
+if (location == null) {
+    location = 'South Lake Tahoe';
+}
+setValues(location);

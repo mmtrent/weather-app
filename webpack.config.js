@@ -6,6 +6,7 @@ module.exports = {
     entry: {
     index: './src/index.js',
     getWeather: './src/getWeather.js',
+    getForecast: './src/getForecast.js',
     UI: './src/UI.js',
     },
     devtool: 'inline-source-map',
