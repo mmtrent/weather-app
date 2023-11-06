@@ -7,7 +7,8 @@ module.exports = {
     index: './src/index.js',
     getWeather: './src/getWeather.js',
     getForecast: './src/getForecast.js',
-    UI: './src/UI.js',
+    getSearch: './src/getSearch.js',
+    setValues: './src/setValues.js',
     },
     devtool: 'inline-source-map',
     devServer: {

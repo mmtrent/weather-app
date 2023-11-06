@@ -15,8 +15,8 @@
                 <label for="locationSearch">
                     Location:
                 </label>
-                <input name="locationSearch" id="locationSearch" value="South Lake Tahoe">
-                <button id="locationSearchButton">Search</button>
+                <input name="locationSearch" id="locationSearch">
+                <button id="locationSearchButton" type="button">Search</button>
             </form>
         </div>
     </div>
@@ -29,24 +29,25 @@
                 </div>
                 <div class="currentCard" id="currentWeather">
                     <div id="currentCondition"></div>
-                    <div id="currentWeatherIcon"></div>
+                    <img id="currentWeatherIcon">
+                    
                 </div>
             </div>
         </div>
         <div id="forecastContainer">
             <div class="forecastCard">
                 <div class="forecastCardTitle">Today</div>
-                <div class="forecastCardIcon" id="todayForecastImg"></div>
+                <img id="todayForecastImg">
                 <div class="forecastCardForecast" id="todayForecast">Forecast</div>
             </div>
             <div class="forecastCard">
                 <div class="forecastCardTitle">Tomorrow</div>
-                <div class="forecastCardIcon" id="tomorrowForecastImg"></div>
+                <img id="tomorrowForecastImg">
                 <div class="forecastCardForecast" id="tomorrowForecast">Forecast</div>
             </div>
             <div class="forecastCard">
                 <div class="forecastCardTitle">Next Day</div>
-                <div class="forecastCardIcon" id="nextForecastImg"></div>
+                <img id="nextForecastImg">
                 <div class="forecastCardForecast" id="nextForecast">Forecast</div>
             </div>
         </div>
